@@ -1,0 +1,137 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: #1f2327;
+}
+.sidebar1{
+    width: 7%;
+    height: 100%;
+    background: #1f2327;
+    border-right: thin solid;
+    border-color: #33373b;  
+    position: absolute;
+}
+.logo{
+    top: 8px;
+    left: 35px;
+    width: 31px;
+    height: 29px;
+    background: red;
+    position: relative;
+    border-radius: 1px;
+    color: white;
+  
+}
+.chart{
+    top: 20x;
+    left: 35px;
+    width: 41px;
+    height: 45px;
+    background: blue;
+    position: relative;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.topbar{
+    width: 92.9%;
+  background: #1f2327;
+    height: 40px;
+    position: absolute;
+    margin-left: 91px;
+}
+.toptext1{
+    color: green;
+    margin-top: 8px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.toptext2{
+    padding-left: 20px;
+    color: red;
+    margin-left:100px;
+    margin-top:-18px;
+    font-weight: bold;
+}
+.sidebar2{
+    width: 15%;
+    height: 110%;
+    background:#1f2327;
+    border-right: thin solid;
+    border-color: #33373b;  
+    position: absolute;
+    margin-left: 91px;
+    margin-top: 40px;
+    color:#7b7e7f;
+    font-weight: 600;
+}
+.box1{
+margin-top: 10px;
+}
+.rectanglebox{
+    height: 70px;
+    width:180px;
+    background:#292E36;
+    position: relative;
+    margin-left: 8px; 
+    color: #969696;
+  
+}
+.innerbox{
+    height: 17px;
+    width: 180px;
+    background: #586168;
+    margin-top: -18px;
+    position: relative;
+    margin-left: 8px;    
+}
+.endbar{
+    width: 15%;
+    height: 110%;
+    background:#1f2327;
+    border-right: thin solid;
+    border-color: #33373b;  
+    position: absolute;
+    margin-left: 1093px;
+    margin-top: -820px;
+    color:#7b7e7f;
+    font-weight: 600;
+   
+}
+.midimg{
+    height: 400px;
+    width:785px;
+    margin-left:295px;
+    margin-top:50px;
+}
+.midrect1,.midrect2,.midrect3,.midrect4,.midrect5{
+    height:150px;
+    width: 150px;
+    margin-left:295px;
+    background:gray;
+    margin-top: 10px;
+}
+.midrect2{
+    margin-left:452px;
+    margin-top: -150px;
+}
+.midrect3{
+    margin-left:610px;
+    margin-top: -150px;
+}
+.midrect4{
+    margin-left:768px;
+    margin-top: -150px;
+}
+.midrect5{
+    margin-left:926px;
+    margin-top: -150px;
+}
+.graph{
+    width: 780px;
+    background:#292e33;
+    margin-left: 295px;
+    margin-top:20px;
+    height: 230px;
+    margin-bottom: 20px;
+}
+
