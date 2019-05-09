@@ -3,149 +3,347 @@
         <title>
             Assignment 1
         </title>
-        <link type="text/css" rel="stylesheet" href="Styles/stylesheet.css">   
+        <link type="text/css" rel="stylesheet" href="Styles/stylesheet.css">  
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="style/main.css">  
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.css"></script>
+      
     </head>
+  
+
+
     <body>
         <div class="sidebar1">
             <div class="logo">
                 FOS
             </div>
-            <div class="chart">
-
+            <div>
+                <i class="large material-icons" id="chart">insert_chart</i>
             </div>
         </div>
 
         <div class="topbar">
-            <div class="toptext1">
-                Operational
+            <div>
+                <div class="greencircle"></div>
+                <div  class="toptext1">OPERATIONAL</div>
+
             </div>
-            <div class="toptext2">
-               3 anomoly detected
+            <div >
+                   <div>
+                        <i class="small material-icons" id="warning">warning</i>
+                   </div> 
+                    <div class="toptext2">
+                            3 Anomoly Detected
+                    </div>  
             </div>
         </div>
 
         <div class="sidebar2">
-            <div>Zone status</div>
-            <div>filter</div>
+            <div class="sidebartext1">Zones Status</div>
+            <div>  
+                 <i class="small material-icons" id="filter">filter_list</i>
+            </div>
             <div class="box1">
+                    
+                <div class="redline"></div>
                 <div class="rectanglebox">
-                
+                        <div id="boxtext">Zone 1</div>
+                    <div>
+                        <i class="small material-icons" id="warningbox">warning</i>
+                    </div> 
+                    
+                    <div class="greencircle1"></div>
                 </div>
                 <div class="innerbox" > 
-    
+    <div id="boxtext1"> 
+        From 23:00:00     
+    </div>
+    <div id="boxtext2"> 
+               To 8:00:00
+    </div>
                 </div>
             </div>
             <div class="box1">
                 <div class="rectanglebox">
+                        <div id="boxtext">Zone 2</div>
                 
                 </div>
                 <div class="innerbox" > 
-    
+                        <div id="boxtext1"> 
+                               24 Hours    
+                            </div>
+                </div>
+            </div>
+            <div class="box1">
+                
+                    <div class="redline"></div>
+                   
+                <div class="rectanglebox">
+                        <div id="boxtext">Zone 3</div>
+                        <div>
+                                <i class="small material-icons" id="warningbox">warning</i>
+                        </div> 
+                        <div class="greencircle1"></div>
+                </div>
+                <div class="innerbox" > 
+                        <div id="boxtext1"> 
+                                From 23:00:00     
+                            </div>
+                            <div id="boxtext2"> 
+                                       To 8:00:00
+                            </div>
                 </div>
             </div>
             <div class="box1">
                 <div class="rectanglebox">
-                
+                        <div id="boxtext">Zone 4</div>
+                        <div class="greencircle1"></div>
                 </div>
                 <div class="innerbox" > 
-    
+                        <div id="boxtext1"> 
+                                From 23:00:00     
+                            </div>
+                            <div id="boxtext2"> 
+                                       To 8:00:00
+                            </div>
                 </div>
             </div>
             <div class="box1">
                 <div class="rectanglebox">
-                
+                        <div id="boxtext">Zone 5</div>
+                        <div class="greencircle1"></div>
                 </div>
                 <div class="innerbox" > 
-    
+                        <div id="boxtext1"> 
+                                From 23:00:00     
+                            </div>
+                            <div id="boxtext2"> 
+                                       To 8:00:00
+                            </div>
                 </div>
             </div>
             <div class="box1">
                 <div class="rectanglebox">
-                
+                        <div id="boxtext">Zone 6</div>
+                        <div class="greencircle1"></div>
                 </div>
                 <div class="innerbox" > 
-    
+                        <div id="boxtext1"> 
+                                From 23:00:00     
+                            </div>
+                            <div id="boxtext2"> 
+                                       To 8:00:00
+                            </div>
                 </div>
             </div>
             <div class="box1">
                 <div class="rectanglebox">
-                
+                        <div id="boxtext">Zone 7</div>
+                        <div class="greencircle1"></div>
                 </div>
                 <div class="innerbox" > 
-    
+                        <div id="boxtext1"> 
+                                From 23:00:00     
+                            </div>
+                            <div id="boxtext2"> 
+                                       To 8:00:00
+                            </div>
                 </div>
             </div>
             <div class="box1">
                 <div class="rectanglebox">
-                
+                        <div id="boxtext">Zone 8</div>
+                        <div class="greencircle1"></div>
                 </div>
                 <div class="innerbox" > 
-    
-                </div>
-            </div>
-            <div class="box1">
-                <div class="rectanglebox">
-                
-                </div>
-                <div class="innerbox" > 
-    
+                        <div id="boxtext1"> 
+                                From 23:00:00     
+                            </div>
+                            <div id="boxtext2"> 
+                                       To 8:00:00
+                            </div>
                 </div>
             </div>
             
         </div>
        <div class="midbar">
             <div>
-                <img  class="midimg" src="Assets/images/map.jpeg">
+                <img  class="midimg" src="Assets/images/img1">
+               
             </div>
             <div >
                 <div class="midrect1">
+                    <img  class="bottomimg hoverclass1" src="Assets/images/img6">
+                    <i class="small material-icons" id="closeicon1">close</i>   
 
                 </div>
                 <div class="midrect2">
+                    <img class="bottomimg  hoverclass2" src="Assets/images/img2">
+                    <i class="small material-icons" id="closeicon2">close</i>   
 
                 </div>
                 <div class="midrect3">
+                    <img class="bottomimg  hoverclass3"  src="Assets/images/img3">
+                    <i class="small material-icons" id="closeicon3">close</i>   
 
                 </div>
                 <div class="midrect4">
+                    <img  class="bottomimg  hoverclass4" src="Assets/images/img4">
+                    <i class="small material-icons" id="closeicon4">close</i>   
 
                 </div>
                 <div class="midrect5">
+                    <img  class="bottomimg  hoverclass5" src="Assets/images/img5">
+                    <i class="small material-icons" id="closeicon5">close</i>   
 
                 </div>
             </div>
             <div class="graph">
-                
+                    <canvas id="myChart" width="780" height="230"></canvas>
+
+ 
             </div>
 
        </div>
        <div class="endbar">
-        <div>Anamoly</div>
-        <div>filter</div>
+           <div class="endbartext">
+               Anamoly
+           </div>
+            <div>  
+                    <i class="small material-icons" id="filter">filter_list</i>
+            </div>
         <div class="box1">
             <div class="rectanglebox">
-            
+                    <i class="small material-icons" id="car">directions_car</i>   
+                    <div id="boxtext3">
+                            <div style="color:rgb(172, 169, 169); margin-bottom: 2px;" >
+                                    11:00:01
+                              </div> 
+                        Vehicle Movement</div>
+                    
             </div>
             <div class="innerbox" > 
-
+                    <div id="boxtext1"> 
+                            zone 8    
+                      </div>
+                      <div id="boxtext2"> 
+                            69m  
+                      </div>
+                      <div id="midboxtext">                               
+                          16 sec                              
+                      </div>
             </div>
         </div>
         <div class="box1">
             <div class="rectanglebox">
-            
+          
+                            <i class="small material-icons" id="car">directions_car</i>                        
+                       
+                    <div id="boxtext3">
+                            <div style="color:rgb(172, 169, 169); margin-bottom: 2px;" >
+                                    11:00:01
+                              </div> 
+                        Vehicle Movement</div>
+                    
             </div>
             <div class="innerbox" > 
-
+                    <div id="boxtext1"> 
+                            zone 8    
+                      </div>
+                      <div id="boxtext2"> 
+                            69m  
+                      </div>
+                      <div id="midboxtext">                               
+                          16 sec                              
+                      </div>
             </div>
         </div>
         <div class="box1">
             <div class="rectanglebox">
-            
+                    <i class="small material-icons" id="car">accessibility</i>   
+
+                    <div id="boxtext3">
+                            <div style="color:rgb(172, 169, 169); margin-bottom: 2px;" >
+                                    11:00:01
+                              </div> 
+                        Vehicle Movement</div>
+                    
             </div>
             <div class="innerbox" > 
-
+                    <div id="boxtext1"> 
+                          zone 8    
+                    </div>
+                    <div id="boxtext2"> 
+                          69m  
+                    </div>
+                    <div id="midboxtext">                               
+                        16 sec                              
+                    </div>
             </div>
         </div>
        </div>
+
+
+
+       <script>
+        var ctx = document.getElementById('myChart').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['','', '17.57', '17.58', '17.59','', '18.00', '18.01',''],
+                datasets: [{
+                    label: 'Live data',
+                 data: [{
+                        x: 0,
+                        y: 1,
+                    }, {
+                        x: 17.56,
+                        y: 2,
+                    },{
+                    x: 17.57,
+                     y: 1,
+                    }, 
+                    {
+                        x: 17.58,
+                        y: 3
+                    },
+                    {
+                        x: 17.58,
+                        y: 1,
+                    },
+                    {
+                        x: 17.58,
+                        y: 2,
+                    },
+                    {
+                        x: 17.58,
+                        y: 0
+                    }],
+
+                    backgroundColor: [
+                       
+                    ],
+                  
+                    borderColor: [
+                    '#4284F4'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                      
+                        ticks: {
+                           min:1,
+                                stepSize: 1
+                        }
+                    }]
+                }
+            }
+        });
+        
+            </script>
     </body>
 </html>
