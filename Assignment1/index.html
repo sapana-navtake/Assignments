@@ -8,7 +8,7 @@
         <link type="text/css" rel="stylesheet" href="style/main.css">  
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.css"></script>
-      
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans:700" rel="stylesheet">
     </head>
   
 
@@ -24,12 +24,12 @@
         </div>
 
         <div class="topbar">
-            <div>
-                <div class="greencircle"></div>
+            <div  class="display-inline">
+                <div id="greencircle" ></div>
                 <div  class="toptext1">OPERATIONAL</div>
 
             </div>
-            <div >
+            <div class="display-inline" >
                    <div>
                         <i class="small material-icons" id="warning">warning</i>
                    </div> 
@@ -54,6 +54,9 @@
                     </div> 
                     
                     <div class="greencircle1"></div>
+                        <div class="drop-shadow">
+                        </div>
+                   
                 </div>
                 <div class="innerbox" > 
     <div id="boxtext1"> 
@@ -84,7 +87,10 @@
                         <div>
                                 <i class="small material-icons" id="warningbox">warning</i>
                         </div> 
-                        <div class="greencircle1"></div>
+                        <div class="greencircle1">  </div>
+                            <div class="drop-shadow">
+                            
+                        </div>
                 </div>
                 <div class="innerbox" > 
                         <div id="boxtext1"> 
@@ -98,7 +104,10 @@
             <div class="box1">
                 <div class="rectanglebox">
                         <div id="boxtext">Zone 4</div>
-                        <div class="greencircle1"></div>
+                        <div class="greencircle1"> </div>
+                            <div class="drop-shadow">
+                          
+                        </div>
                 </div>
                 <div class="innerbox" > 
                         <div id="boxtext1"> 
@@ -113,6 +122,9 @@
                 <div class="rectanglebox">
                         <div id="boxtext">Zone 5</div>
                         <div class="greencircle1"></div>
+                            <div class="drop-shadow">
+                           
+                        </div>
                 </div>
                 <div class="innerbox" > 
                         <div id="boxtext1"> 
@@ -127,6 +139,9 @@
                 <div class="rectanglebox">
                         <div id="boxtext">Zone 6</div>
                         <div class="greencircle1"></div>
+                            <div class="drop-shadow">
+                            
+                        </div>
                 </div>
                 <div class="innerbox" > 
                         <div id="boxtext1"> 
@@ -140,7 +155,10 @@
             <div class="box1">
                 <div class="rectanglebox">
                         <div id="boxtext">Zone 7</div>
-                        <div class="greencircle1"></div>
+                        <div class="greencircle1"> </div>
+                            <div class="drop-shadow">
+                            </div>
+                       
                 </div>
                 <div class="innerbox" > 
                         <div id="boxtext1"> 
@@ -154,7 +172,12 @@
             <div class="box1">
                 <div class="rectanglebox">
                         <div id="boxtext">Zone 8</div>
-                        <div class="greencircle1"></div>
+                        <div class="greencircle1 ">
+                            
+                        </div>
+                            <div class="drop-shadow">
+                            </div>
+                        </div>
                 </div>
                 <div class="innerbox" > 
                         <div id="boxtext1"> 
@@ -166,6 +189,9 @@
                 </div>
             </div>
             
+        </div>
+        <div class="scroll">
+
         </div>
        <div class="midbar">
             <div>
@@ -299,6 +325,7 @@
                         y: 1,
                     }, {
                         x: 17.56,
+                     
                         y: 2,
                     },{
                     x: 17.57,
@@ -310,6 +337,7 @@
                     },
                     {
                         x: 17.58,
+                        x:0,
                         y: 1,
                     },
                     {
@@ -324,7 +352,7 @@
                     backgroundColor: [
                        
                     ],
-                  
+                    
                     borderColor: [
                     '#4284F4'
                     ],
@@ -332,6 +360,11 @@
                 }]
             },
             options: {
+                elements: {
+            line: {
+                tension: 0 // disables bezier curves
+            }
+                },
                 scales: {
                     yAxes: [{
                       

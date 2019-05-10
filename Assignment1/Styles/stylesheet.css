@@ -27,10 +27,10 @@ body{
 #chart{
     top: 20x;
     left: 26px;
-    width: 41px;
-    height: 45px;
+    width: 55.35px;
+    height: 55.35px;
     font-size: 3.4rem;
-    color: blue;
+   color: #4284F3;
     position: relative;
     border-radius: 5px;
     margin-top: 20px;
@@ -45,26 +45,27 @@ body{
    
 }
 .toptext1{
-    color: #64e987;
+    color:rgb(100, 233, 135);
     margin-top: -13px;
-    margin-left: 25px;
+    margin-left: 22px;
     font-weight: bold;
-    font-family: Open Sans;
-
+    font-family: 'Noto Sans', sans-serif;
 }
 .toptext2{
     padding-left: 20px;
-    color: #ed4158;
+    color:rgb(227, 63, 86);
     margin-left:160px;
     margin-top:-18px;
     font-weight: bold;
-    font-family: Open Sans;
-    
+    font-family: 'Noto Sans', sans-serif;
+    width:202px;
+    height: 28px;
+ 
 
 }
 #warning{
     margin-left:160px;
-    margin-top:-18px;
+    margin-top:-13px;
     color: #ed4158;
     font-size: 1rem;
 }
@@ -85,6 +86,8 @@ body{
     size: 10px;
     color:#949698;
     margin-left: 5px;
+    font-family: 'Noto Sans', sans-serif;
+
 }
 #filter{
     color:#949698;
@@ -170,8 +173,8 @@ margin-top: 10px;
     height:150px;
     width: 150px;
 }
-.greencircle{
-    margin-top: 8px;
+#greencircle{
+    margin-top: 15px;
     margin-left: 5px;
     height: 5px;
     width: 5px;
@@ -188,7 +191,24 @@ margin-top: 10px;
     border-style: solid;
     border-color: #64e987;
     border-radius: 50%;
+
+
+
 }
+.drop-shadow {
+    box-shadow: 20px -10px 5px rgb(140, 187, 118);
+    margin-top: 28px;
+    float: right;
+    margin-right:7px;
+     height: 15px;
+     width:15px;
+     border-radius: 50%;
+     color: transparent;
+background: transparent;
+   
+    
+
+        }
 .redline{
     height: 69px;
     width:1px;
@@ -203,13 +223,15 @@ margin-left:10px;
 position: absolute;
 font-size: 13px;
 font-weight: bold;
+font-family: 'Noto Sans', sans-serif;
+
 
 }
 #warningbox{
 float: left;    
 color: #ed4158;
 font-size: 0.9rem;
-margin-top: 7px;
+margin-top: 8px;
 margin-left: 10px;
 }
 #boxtext1{
@@ -219,6 +241,8 @@ margin-left: 10px;
    float: left;
    margin-top:2px;
    margin-left:10px;
+   font-family: 'Noto Sans', sans-serif;
+
 }
 #boxtext2{
     color:rgb(218, 212, 212);
@@ -227,6 +251,8 @@ margin-left: 10px;
    float: right;
    margin-top:2px;
    margin-right:10px;
+   font-family: 'Noto Sans', sans-serif;
+
 }
 #midboxtext{
     color:rgb(218, 212, 212);
@@ -235,6 +261,8 @@ margin-left: 10px;
    float: right;
    margin-top:2px;
    margin-right:45px;
+   font-family: 'Noto Sans', sans-serif;
+
 }
 #boxtext3{
     color: #cfd1d4;
@@ -244,13 +272,19 @@ margin-left: 10px;
    margin-top:12px;
    margin-left:20px;
    padding-top: 1px;
+   font-family: 'Noto Sans', sans-serif;
+
 }
 #boxtext4{   
 margin-top: 13px;
 margin-left: 35px;
+font-family: 'Noto Sans', sans-serif;
+
 }
 .endbartext{
     margin-left:10px;
+    font-family: 'Noto Sans', sans-serif;
+
 }
 #car{
     float: left;    
@@ -259,29 +293,43 @@ margin-left: 35px;
     margin-left: 10px; 
 }
 #closeicon1,#closeicon2,#closeicon3,#closeicon4,#closeicon5{
-    color:red;
-    font-size:1 rem;
+    border-radius: 100%;
+    padding: 4px;
+    background-color: #eee;
+    box-shadow: 2px 2px 2px 0 #888;
+    font-size: 1rem;
     margin-top:-150px;
   margin-left:120px;
-  display: none;
+ visibility: hidden;
+
+
+ 
 }
 .hoverclass1:hover +#closeicon1{
-display: block;
+
+visibility: visible;
+
 }
 .hoverclass2:hover +#closeicon2{
-    display: block;
+    visibility: visible;
 }
 .hoverclass3:hover +#closeicon3{
-        display: block;
+    visibility: visible;
 }
 .hoverclass4:hover +#closeicon4{
-            display: block;
+    visibility: visible;
 }
 .hoverclass5:hover +#closeicon5{
-                display: block;
+    visibility: visible;
 }
-#mychart{
-   
+.display-inline{
+margin-top: -6px;
 }
-
+.scroll {
+        height: 25px;	
+        width: 9px;	
+        opacity: 0.15;
+        border-radius: 9.5px;	
+        background-color: #FFFFFF;
+    }
 
